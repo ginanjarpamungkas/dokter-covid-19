@@ -3,8 +3,10 @@ $('.column').on('click',function(e) {
     if (value == 0) {
         $(this).css('transform','rotateY(180deg)')
         var value = $(this).data('value',1)
-    } else {
+    } else if (value == 1) {
         $(this).css('transform','unset')
         var value = $(this).data('value',0)
+    } else {
+
     }
 })
