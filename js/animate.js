@@ -6,7 +6,5 @@ $('.column').on('click',function(e) {
     } else if (value == 1) {
         $(this).css('transform','unset')
         var value = $(this).data('value',0)
-    } else {
-
     }
 })
